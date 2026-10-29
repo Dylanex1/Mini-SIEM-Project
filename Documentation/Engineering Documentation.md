@@ -15,7 +15,7 @@ Test:
 
 Let us run 3 incorrect password attempts on our wazuh user 
 
-![alt text](image.png)
+![alt text](Screenshots/SudoEvent.png)
 
 Result: 
 
@@ -40,7 +40,7 @@ Multiple password failures can occur on a daily basis from user error trying to 
 
 What does Rule 5404 actually do? Let us check in the XML file for syslog rules 
 
-![alt text](image-1.png)
+![alt text](Screenshots/XMLRules.png)
 
 We discover that it refers to a parent rule ID 5401. 5401 is for when there is a failed password attempt on sudo
 
