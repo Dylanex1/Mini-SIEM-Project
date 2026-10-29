@@ -37,7 +37,6 @@ We know the cause of this is that I intentionally entered the password incorrect
 Multiple password failures can occur on a daily basis from user error trying to authenticate to get authorized but it is a good practice to always stay mindful to watch for patterns.
 
 
-
 What does Rule 5404 actually do? Let us check in the XML file for syslog rules 
 
 ![alt text](Screenshots/XMLRules.png)
