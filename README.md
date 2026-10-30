@@ -9,3 +9,5 @@ Welcome to the Mini-SIEM Project! This is where I will be configuring a virtual 
 * Investigated Wazuh security alerts by examining event fields, rule IDs, and severity levels.
 * Generated three intentional failed sudo authentication attempts and analyzed the resulting alert.
 * Traced the alert through Wazuh rules 5400, 5401, and 5404 to understand how parent-child rule conditions determine whether an alert is triggered.
+*  Learned how Wazuh processes logs through pre-decoding, decoding and rule filtering.
+* Used `wazuh-logtest` to trace parent child rule matching and understood how Wazuh generates alerts.
